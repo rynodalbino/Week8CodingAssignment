@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(183, 240, 126);
+    color: black;
+    
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+div {
+    background-color: rgb(235, 220, 220);
+    border-style: groove;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    
+}
+
+.shadow-text {
+    text-shadow: rgb(245, 7, 7) 2px 2px;
+}
+
+#paragraph {
+    font-size: larger;
+    font-family: Georgia, serif;
+font-size: 17px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+
+form {
+    background-color: antiquewhite;
+    text-align: center;
+    border-style: double;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+table{
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: groove;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: aquamarine;
+}
+
+tr:hover {
+    background-color: cadetblue;
+}
+
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+    -webkit-box-shadow: 10px 5px 15px 11px #FF396B; 
+    box-shadow: 10px 5px 15px 11px #FF396B;
+    
+    
+     background-color: #1C6EA4;
+     display: block;
+     margin: 50px auto 0;
+     width: 300px;
+     height: 300px;
+     color: #FFF;
+     padding: 10px;
+    
+  
+}
+
+p {
+    text-align: center;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: inline; 
+    
+    padding: 0%;
+    margin: 0%;
+    
+    font-size: larger;
+    text-align: center;
+    
+    
+}
